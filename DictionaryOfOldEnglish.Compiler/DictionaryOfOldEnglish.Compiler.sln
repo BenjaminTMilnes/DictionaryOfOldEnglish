@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryOfOldEnglish.Compiler", "DictionaryOfOldEnglish.Compiler.csproj", "{88234FD1-37E2-4861-8013-99FCD1743877}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DictionaryOfOldEnglish.Data", "DictionaryOfOldEnglish.Data", "{46AD6FBB-3323-421B-BB0A-9BC69D2C023B}"
+	ProjectSection(SolutionItems) = preProject
+		aesc.dict = aesc.dict
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
